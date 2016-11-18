@@ -102,13 +102,18 @@
   @media only screen and (max-width: 500px) {
     margin: -56px -24px 56px -24px
   }
-  &.a2,
   &.a1 {
     background-color: #007acc;
     background-image: linear-gradient(to bottom right, #0087cc, #0056cc);
+    padding: 37px 40px 36px 40px;
+  }
+  &.a2 {
+    background-color: #007acc;
+    background-image: linear-gradient(to bottom right, #0087cc, #0056cc);    
   }
   &.js {
     background-color: #f7df1f;
+    padding: 42px 40px 41px 40px;
   }
   &__logo {
     display: inline-block;
@@ -121,8 +126,9 @@
     }
 
     .js & {
-      max-width: 110px;
+      max-width: 120px;
       margin-top: 10px;
+      margin-bottom: 12px;
     }
   }
   &__title {
