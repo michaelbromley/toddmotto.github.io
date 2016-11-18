@@ -12,7 +12,8 @@ $site-max-width: 788px;
 
 .content {
   background: #fafbfb;
-  padding: 64px 0;
+  // padding: 64px 0;
+  padding: 30px 0 65px;
   overflow-x: hidden;
   @media screen and (max-width: 850px) {
     padding: 50px 40px;
@@ -60,7 +61,7 @@ $site-max-width: 788px;
         font-size: 14px;
       }
     }
-  }  
+  }
 }
 
 .courses {
@@ -453,5 +454,40 @@ table {
   }
   &__star {
     text-align: center;
+  }
+}
+
+/* form */
+.search {
+  position: relative;
+  max-width: 788px;
+  margin: 0 auto 25px;
+  input {
+    width: 100%;
+    padding: 8px 15px;
+  }
+  ul {
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    max-height: 200px;
+    overflow-y: scroll;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    li {
+      a {
+        display: block;
+        padding: 15px;
+        color: #444;
+        transition: background 0.2s ease-in-out;
+        &:hover {
+          background: #f9f9f9;
+        }
+      }
+    }
+    &:empty {
+      display: none;
+    }
   }
 }

@@ -4,7 +4,7 @@ layout: page
 class: about
 ---
 
-I'm Todd, a 25 year old front-end engineer from England, UK, working as a Developer Advocate at [Telerik](http://telerik.com). Co-Founder of [Ultimate Angular](//ultimateangular.com), a project to bring the Angular 1.x and Angular 2 ecosystem to developers through online courses. I'm also a [Developer Expert](//developers.google.com/experts/people/todd-motto) at Google, [conference speaker](//speakerdeck.com/toddmotto) and [open source](//github.com/toddmotto) lover.
+I'm Todd, a 26 year old front-end engineer from England, UK, working as a Developer Advocate at [Telerik](http://telerik.com). Co-Founder of [Ultimate Angular](//ultimateangular.com), a project to bring the Angular 1.x and Angular 2 ecosystem to developers through online courses. I'm also a [Developer Expert](//developers.google.com/experts/people/todd-motto) at Google, [conference speaker](//speakerdeck.com/toddmotto) and [open source](//github.com/toddmotto) lover.
 
 <div class="about__talk">
   <img src="img/about.jpg">

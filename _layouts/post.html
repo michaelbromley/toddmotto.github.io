@@ -53,7 +53,7 @@ layout: default
       </h3>
       <p>
         I'm a Developer Advocate at <a href="http://telerik.com" target="_blank">Telerik</a>.
-        Founder of <a href="//voux.io" target="_blank">Voux</a>.
+        Founder of <a href="//ultimateangular.com" target="_blank">Ultimate Angular</a>.
         Interested in advanced JavaScript, Angular, React. Regular conference speaker and open source developer.
         Developer Expert at <a href="//developers.google.com/experts/people/todd-motto" target="_blank">Google</a>.
       </p>
@@ -65,8 +65,8 @@ layout: default
   <div id="mc_embed_signup">
     <form action="//toddmotto.us12.list-manage.com/subscribe/post?u=fb4d73e892f0d123a57dbd8bc&amp;id=0653182c3c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
       <div id="mc_embed_signup_scroll">
-      <h3 class="signup__title">Never miss an article!</h3>
-      <p class="signup__sub">All the awesomeness straight to your inbox. Plus exclusive workshop and training discounts, and more!</p>
+      <h3 class="signup__title">Never miss an article</h3>
+      <p class="signup__sub">All the awesomeness straight to your inbox. Plus exclusive workshop and training discounts, and more.</p>
       <div class="mc-field-group">
         <input type="email" placeholder="Email address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
       </div>
@@ -94,65 +94,6 @@ layout: default
     <ul class="similar__posts"></ul>
   </div>
 </aside>
-<script>
-/*! linkjuice.js v1.0.0 | (c) 2016 @toddmotto | https://github.com/toddmotto/linkjuice */
-(function (global, factory) {
-  if (typeof define === "function" && define.amd) {
-    define(['exports'], factory);
-  } else if (typeof exports !== "undefined") {
-    factory(exports);
-  } else {
-    var mod = {
-      exports: {}
-    };
-    factory(mod.exports);
-    global.linkjuice = mod.exports;
-  }
-})(this, function (exports) {
-  'use strict';
-
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  var scope = void 0,
-      nodes = void 0,
-      inject = void 0;
-
-  var wrapNode = function wrapNode(node) {
-    var a = document.createElement('a');
-    a.href = '#' + node.id;
-    a.className = 'linkjuice';
-    a.innerHTML = '<span class="linkjuice-icon">' + inject + '</span>' + node.innerHTML;
-    node.innerHTML = '';
-    node.appendChild(a);
-  };
-
-  var linkjuice = function linkjuice(mount, _ref) {
-    var _ref$icon = _ref.icon;
-    var icon = _ref$icon === undefined ? '#' : _ref$icon;
-    var _ref$selectors = _ref.selectors;
-    var selectors = _ref$selectors === undefined ? ['h2', 'h3', 'h4', 'h5', 'h6'] : _ref$selectors;
-
-    scope = document.querySelector(mount);
-    if (!scope) return;
-    inject = icon;
-    nodes = scope.querySelectorAll(selectors.join(','));
-    for (var i = nodes.length; i--;) {
-      wrapNode(nodes[i]);
-    }
-  };
-
-  var init = exports.init = function init(mount, options) {
-    return linkjuice(mount, options);
-  };
-});
-
-linkjuice.init('.post__content', {
-  selectors: ['h2', 'h3', 'h4', 'h5'],
-  icon: '<i class="linkjuice__icon"></i>'
-});
-</script>
-
 
 <div class="disqus">
   <div id="disqus_thread"></div>
