@@ -6,7 +6,7 @@ class: speaking
 
 Please note: I am not accepting new speaking requests until January 2017 onwards. Thank you :) 
 
-I regularly speak at conferences in Europe and America, if you'd like me to join yours, please email me through <a href="//voux.io/contact" target="_blank">Voux's contact form</a> and we can discuss further.
+I regularly speak at conferences in Europe and America, if you'd like me to join yours, please email me, todd[at]toddmotto[dotcom] and we can discuss further.
 
 <div class="speaking__grid">
   <ul>
@@ -46,12 +46,6 @@ I'm a Developer Advocate at Telerik, which means some of the below events may be
 <div class="speaking__list">
   <ul>
     <li>
-      <a href="#">We Speak JS</a>, Cluj (Romania), <span>07-11.10.2016</span>
-    </li>
-    <li>
-      <a href="https://voxxeddays.com/thessaloniki/">Voxxed Thessaloniki</a>, Thessaloniki (Greece), <span>21.10.2016</span>
-    </li>
-    <li>
       <a href="http://ng-poland.pl">ngPoland</a>, Warsaw (Poland), <span>21-22.11.2016</span>
     </li>
     <li>
@@ -66,6 +60,12 @@ Events I've spoken at. Check my [YouTube Channel](https://www.youtube.com/channe
 
 <div class="speaking__list">
   <ul>
+    <li>
+      <a href="https://voxxeddays.com/thessaloniki/">Voxxed Thessaloniki</a>, Thessaloniki (Greece), <span>21.10.2016</span>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/events/1105119229569591/">We Speak JS</a>, Cluj (Romania), <span>07-11.10.2016</span>
+    </li>
     <li>
       <a href="http://angularconnect.com/2016">AngularConnect</a>, London (England, UK), <span>27.09.2016</span>
     </li>

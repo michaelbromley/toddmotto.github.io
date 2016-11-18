@@ -607,3 +607,4 @@ Visit [angular.io](https://angular.io) for everything else.
 * Convert your application to ES6 + TypeScript
 * Refactor any Directives using a [decoupled component](http://www.bennadel.com/blog/2922-decoupling-component-directives-from-layout-in-angularjs.htm) approach
 * Refactor any Controllers to use [controllerAs](http://toddmotto.com/digging-into-angulars-controller-as-syntax) syntax
+* [Angular 2 migration guide - ngMigrate](http://ngmigrate.telerik.com)

@@ -1,10 +1,14 @@
 <!doctype html>
 <html>
   {% include head.html %}
-  <body>    
+  <body>
     {% include header.html %}
     <main class="content">
-      <div class="card">      
+      <form class="search">
+        <input type="text" placeholder="Search (beta)...">
+        <ul></ul>
+      </form>
+      <div class="card">
         <div class="courses">
           <a class="courses__out" href="https://ultimateangular.com?utm_source=toddmotto.com" target="_blank">
             <div class="courses__a1"></div>
@@ -14,22 +18,13 @@
               Master Angular 1.x and Angular 2 with me online
             </h3>
             <p>
-              Limited Angular 2 preorders now available.<br>Master the latest Angular 1.5 components, or dive straight into mastering Angular 2
+              Limited Angular 2 preorders now available.<br>Master the latest Angular 1.5 components, or preorder the most in-depth Angular 2 courses.
             </p>
             <button type="button">
-              See the packages
+              See the courses
             </button>
           </a>
-          <script>
-            (function () {
-              var banner = document.querySelector('.courses__out');
-              if (!banner) return;
-              var url = window.location.pathname;
-              banner.href = banner.href + url;
-            })();
-          </script>
         </div>
-        
         <div class="card__content">
           {{ content }}
         </div>

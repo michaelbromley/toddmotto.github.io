@@ -1,0 +1,7 @@
+---
+---
+[{% for post in site.posts %}{
+  "title"    : "{{ post.title | escape | strip_html }}",
+  "content"	 : "{{ post.content | strip_html | strip_newlines | remove:  "	" | escape | truncatewords: 20 | remove: "\" }}",
+  "url"      : "{{ site.baseurl }}{{ post.url }}"
+}{% unless forloop.last %},{% endunless %}{% endfor %}]

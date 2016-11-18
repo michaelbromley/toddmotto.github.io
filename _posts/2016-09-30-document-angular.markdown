@@ -411,7 +411,7 @@ Alright, moving on, we now need to create our index template. Create `indexPage.
 
 ````html
 <!doctype html>
-<html ng-app="docs" ng-controller="DocsController as ctrl">
+<html ng-app="docs">
     <head>
         <base href="/">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -429,17 +429,16 @@ Alright, moving on, we now need to create our index template. Create `indexPage.
             <div class="container">
 
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">Documentation</a>
+                    <span class="navbar-brand">Documentation</span>
                 </div>
 
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">API</a></li>
-                    <li><a href="#">Guide</a></li>
+                    <li><a ui-sref="api">API</a></li>
+                    <li><a ui-sref="guide">Guide</a></li>
                 </ul>
 
             </div>
         </nav>
-
 
         <div class="container">
 
@@ -452,8 +451,9 @@ Alright, moving on, we now need to create our index template. Create `indexPage.
 
         </div>
 
+
         <!-- vendors -->
-        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
         <script src="//cdn.rawgit.com/angular-ui/ui-router/0.2.18/release/angular-ui-router.js"></script>
 
         <!-- angular app -->
