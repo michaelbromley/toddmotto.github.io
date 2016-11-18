@@ -91,6 +91,54 @@
       }
     }
 
+// CATEGORY
+
+.category-banner {
+  text-align: center;
+  margin: -56px -64px 56px -64px;
+  padding: 30px 40px;
+  &.a2,
+  &.a1 {
+    background-color: #007acc;
+    background-image: linear-gradient(to bottom right, #0087cc, #0056cc);
+  }
+  &.js {
+    background-color: #f7df1f;
+  }
+  &__logo {
+    display: inline-block;
+    max-width: 140px;
+    .a2 & {
+      margin-top: -10px;
+    }
+    .a1 & {
+      max-width: 110px;      
+    }
+
+    .js & {
+      max-width: 110px;
+      margin-top: 10px;
+    }
+  }
+  &__title {
+    .post.single & {
+      border-top: none;
+      font-family: $font--open-sans--semi;
+      color: white;
+      padding-top: 0;
+      margin: 0;
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-top: 10px;            
+    }
+
+    .post.single .js & {
+      color: #000000;
+    }
+
+  }
+}
+
 
 // Post
 .post {

@@ -1,0 +1,36 @@
+---
+layout: page
+class: javascript
+---
+
+<div class="category-banner js">
+  <img src="/img/categories/js.svg" alt="" class="category-banner__logo">
+  <h2 class="category-banner__title">Javascript</h2>
+</div>
+
+{% for post in site.posts %}
+  {% if post.tags contains 'Javascript' %}
+  <section class="post-single">
+    <header class="post-single__header">
+      <h1 class="post-single__title">
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h1>
+      <span class="post__meta">
+        Posted on {{ post.date | date: "%b %-d, %Y" }}
+      </span>
+      <div class="post__meta__divider"></div>
+    </header>
+    <a href="{{ post.url | prepend: site.baseurl }}" class="post-single__content" title="Read {{ post.title }}">
+      <p>
+        {{ post.content | strip_html | truncatewords: 30 }}
+      </p>
+    </a>
+    <div class="post__button">
+      <a href="{{ post.url | prepend: site.baseurl }}" class="button" title="Read {{ post.title }}">
+        Read more
+        <img src="{{ site.baseurl }}/img/icons/more.svg" alt="{{ post.title }}">
+      </a>
+    </div>
+  </section>
+  {% endif %}
+{% endfor %}

@@ -3,6 +3,8 @@ layout: post
 permalink: /angular-1-5-lifecycle-hooks
 title: Lifecycle hooks in Angular 1.5
 path: 2016-06-03-lifecycle-hooks.md
+tags:
+- Angular
 ---
 
 Lifecycle hooks are simply functions that get called at specific points of a component's life in our Angular apps. They landed in Angular 1.5 and are to be used alongside the [.component() method](/exploring-the-angular-1-5-component-method/), and have slowly evolved over the last few versions to include some more powerful (and Angular 2 inspired) hooks. Let's explore in-depth how we can actually use them, the roles they play and why you should use them - this is especially important with a component architecture based app.

@@ -3,6 +3,8 @@ layout: post
 permalink: /transclusion-in-angular-2-with-ng-content
 title: Transclusion in Angular 2
 path: 2016-03-22-transclusion-in-angular-2-with-ng-content.md
+tags:
+- Angular 2
 ---
 
 Transclusion is an Angular 1.x term, lost in the rewrite of Angular 2, so let's bring it back for this article just concept clarity. The word "transclusion" may be gone, but the concepts remain.

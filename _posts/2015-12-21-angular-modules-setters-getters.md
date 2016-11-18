@@ -6,6 +6,7 @@ path: 2015-12-21-angular-modules-setters-getters.md
 tags:
 - Modules
 - Bootstrap
+- Angular
 ---
 
 The first place you'll usually start in any Angular application or module library, is creating a module. Let's walk through the syntax differences between creating a module (a setter) and talking to an existing module (using a getter).

@@ -3,6 +3,8 @@ layout: post
 permalink: /stateless-angular-components/
 title: Stateless Angular components
 path: 2016-02-08-stateless-angular-components.md
+tags:
+- Angular
 ---
 
 There were a tonne of interesting changes happening in the `beta` and release candidate phases of Angular 1.5, one of them was the introduction of the [Component method](/exploring-the-angular-1-5-component-method), which saw [one-way bindings](/one-way-data-binding-in-angular-1-5) also introduced. We've also got the power to create stateless components.

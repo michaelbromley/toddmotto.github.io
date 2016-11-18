@@ -3,6 +3,8 @@ layout: post
 permalink: /dynamic-page-titles-angular-2-router-events
 title: Dynamic page titles in Angular 2 with router events
 path: 2016-11-17-dynamic-page-titles-angular-2-router-events.md
+tags:
+- Angular 2
 ---
 
 Updating page titles in Angular 1.x was a little problematic and typically was done via a global `$rootScope` property that listened for route change events to fetch the current route and map across a static page title. In Angular 2, the solution is far easier as it provides a single API, however we can actually tie this API into route change events to dynamically update the page titles. 

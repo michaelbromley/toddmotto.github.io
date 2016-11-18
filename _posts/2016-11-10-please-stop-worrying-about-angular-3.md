@@ -3,6 +3,8 @@ layout: post
 permalink: /please-stop-worrying-about-angular-3
 title: Please stop worrying about Angular 3
 path: 2016-11-10-please-stop-worrying-about-angular-3.md
+tags:
+- Angular 2
 ---
 
 Another Angular version planned already? Whaaaat?

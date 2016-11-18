@@ -3,6 +3,8 @@ layout: post
 permalink: /angular-2-authentication
 title: Angular 2 authentication with Auth0 and NodeJS
 path: 2016-04-19-angular-2-authentication.md
+tags:
+- Angular 2
 ---
 
 If you've needed to add authentication to an Angular 1.x app, you'll have likely have had some fun and perhaps been lost at where to start. Traditional methods of session and cookie-based auth are challenging for full-on single page apps regardless of the framework or strategy you choose, so I've usually used [JSON Web Tokens JWT](https://jwt.io/introduction) for stateless authentication instead. Even when using JWTs though, there's still a lot that needs to be kept in check. Things like hiding and showing various parts of the UI based on the user's authentication state, attaching the JWT as an `Authorization` header in HTTP requests, and redirecting to the login route when a request gets rejected as being invalid.

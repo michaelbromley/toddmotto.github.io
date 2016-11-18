@@ -3,6 +3,8 @@ layout: post
 permalink: /future-of-angular-1-x
 title: The future for Angular 1.x, what next?
 path: 2016-11-04-future-angular-1-x.md
+tags:
+- Angular
 ---
 
 Angular 2 is upon us, and with the new approach the Angular team are taking with semantic versioning (SemVer), Angular 3 will shortly be upon us. Then Angular 4, 5, 6 or whatever the future holds at that point in the distant future. Where does this leave the majority of web applications, years worth of software investment, developer skills and future migration?

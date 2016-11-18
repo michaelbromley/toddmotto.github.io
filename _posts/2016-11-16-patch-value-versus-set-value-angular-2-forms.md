@@ -3,6 +3,8 @@ layout: post
 permalink: /angular-2-form-controls-patch-value-set-value
 title: Updating Angular 2 Forms with patchValue or setValue
 path: 2016-11-16-patch-value-versus-set-value-angular-2-forms.md
+tags:
+- Angular 2
 ---
 
 Setting model values in Angular 2 can be done in a few different ways, however with [reactive forms](/angular-2-forms-reactive) things are extremely easy to do with the new form APIs. In this post we'll dig a little deeper as to the differences between `patchValue` and `setValue` in Angular 2 forms.

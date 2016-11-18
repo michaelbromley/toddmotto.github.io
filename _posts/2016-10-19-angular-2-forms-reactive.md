@@ -3,6 +3,8 @@ layout: post
 permalink: /angular-2-forms-reactive
 title: Angular 2 form fundamentals&#58; reactive forms
 path: 2016-10-19-angular-2-forms-reactive.md
+tags:
+- Angular 2
 ---
 
 Angular 2 presents two different methods for creating forms, template-driven (what we were used to in Angular 1.x), or reactive. We're going to explore the absolute fundamentals of the reactive Angular 2 forms, covering `ngForm`, `ngModel`, `ngModelGroup`, submit events, validation and error messages.

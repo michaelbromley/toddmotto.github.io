@@ -3,6 +3,8 @@ layout: post
 permalink: /passing-data-angular-2-components-input
 title: Passing data into Angular 2 Components with "Input"
 path: 2016-03-18-passing-data-angular-2-components-input.md
+tags:
+- Angular 2
 ---
 
 Static Components can be great, however most Components have the need for data to be passed in and out of them. Usually we would pass data into a Component, the Component would go to work, and let the parent Component know something has changed, passing back the changed value.

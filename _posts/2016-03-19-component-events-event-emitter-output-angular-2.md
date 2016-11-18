@@ -3,6 +3,8 @@ layout: post
 permalink: /component-events-event-emitter-output-angular-2
 title: Component events with EventEmitter and "Output" in Angular 2
 path: 2016-03-19-component-events-event-emitter-output-angular-2.md
+tags:
+- Angular 2
 ---
 
 Angular 2 Components have a far better way of notifying parent Components that something has happened via events. There is no longer two-way data binding in Angular 2 in the same way we knew it in Angular 1.x, it's designed around a uni-directional data flow system that adopts a much more reasonable approach to application development. Let's finalise the basics of parent-child and child-parent communication.

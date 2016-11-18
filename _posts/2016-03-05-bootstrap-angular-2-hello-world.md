@@ -3,6 +3,8 @@ layout: post
 permalink: /bootstrap-angular-2-hello-world
 title: Bootstrapping your first Angular 2 application
 path: 2016-03-05-bootstrap-angular-2-hello-world.md
+tags:
+- Angular 2
 ---
 
 The [Angular 2 quickstart](https://angular.io/docs/ts/latest/quickstart.html) guide is a fantastic place to get started with the next version of Angular, however there are some crucial aspects of the tutorial that aren't specifically required to understand how to bootstrap an Angular 2 project.
