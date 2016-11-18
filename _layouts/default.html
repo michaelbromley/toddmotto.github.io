@@ -4,21 +4,32 @@
   <body>
     {% include header.html %}
     <main class="content">
-      <div class="category-list">
-        <a href="#" class="category__buckets">
-          <h2 class="category__bucket__title">Angular 1</h2>
-        </a>
-        <a href="#" class="category__buckets">
-          <h2 class="category__bucket__title">Angular 2</h2>
-        </a>
-        <a href="#" class="category__buckets">
-          <h2 class="category__bucket__title">JavaScript</h2>
-        </a>
+      <div class="action-bar">
+        <div class="category-list">
+          <a href="/angular-1-x.html" class="category__buckets">
+            <h2 class="category__bucket__title a1">
+              <img src="/img/categories/angular-1.svg" alt="">
+              Angular 1.x
+            </h2>
+          </a>
+          <a href="/angular-2.html" class="category__buckets">
+            <h2 class="category__bucket__title a2">
+              <img src="/img/categories/angular-2.svg" alt="">
+              Angular 2
+            </h2>
+          </a>
+          <a href="/javascript.html" class="category__buckets">
+            <h2 class="category__bucket__title js">
+              <img src="/img/categories/js.svg" alt="">
+              JavaScript
+            </h2>
+          </a>
+        </div>
+        <form class="search">
+          <input type="text" placeholder="Search (beta)...">
+          <ul></ul>
+        </form>
       </div>
-      <form class="search">
-        <input type="text" placeholder="Search (beta)...">
-        <ul></ul>
-      </form>
       <div class="card">
         <div class="courses">
           <a class="courses__out" href="https://ultimateangular.com?utm_source=toddmotto.com" target="_blank">

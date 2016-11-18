@@ -457,11 +457,116 @@ table {
   }
 }
 
-/* form */
-.search {
-  position: relative;
+
+// CATEGORY
+
+.action-bar {
   max-width: 788px;
   margin: 0 auto 25px;
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+
+  .category-list {
+    float: left;
+    width: 60%;
+    margin-top: 1px;
+    @media only screen and (max-width: 810px) {
+      float: none;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    @media only screen and (max-width: 560px) {
+      margin-bottom: 0;
+    }
+    &::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  }
+  .search {
+    float: left;
+    width: 40%;
+    @media only screen and (max-width: 810px) {
+      float: none;
+      width: 100%;
+    }
+  }
+}
+
+.category {
+  &__buckets {
+    float: left;
+    width: 33.33%; 
+    padding-right: 10px; 
+    display: block;
+    @media only screen and (max-width: 810px) {
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+    @media only screen and (max-width: 560px) {
+      float: none;
+      width: 100%;
+      padding-right: 0;
+      margin-bottom: 10px;
+
+    }
+    h2 {
+      font-size: 14px; 
+      margin: 0;
+      padding: 1px 20px 1px 10px;
+      border-radius: 2px;
+      text-transform: uppercase;
+      text-align: right;
+      @media only screen and (max-width: 560px) {
+        text-align: left;
+        padding: 1px 14px 1px 20px;
+      }
+      img {
+        max-width: 20px;
+        vertical-align: middle;
+        margin-right: 5px;
+        position: relative;
+        float: left;
+        @media only screen and (max-width: 560px) {
+          float: right;
+        }
+      }
+      &.a1 {
+        background-color: #007acc;
+        color: white;
+        img {
+          top: 9px;
+        }
+      }
+      &.a2 {
+        background-color: #007acc;
+        color: white;
+        img {
+          top: 8px;
+          max-width: 24px;
+        }
+      }
+      &.js {
+        background-color: #f7df1f;
+        color: #000000;
+        img {
+          top: 13px;
+        }
+      }
+    }
+  }
+}
+
+/* form */
+.search {
+  position: relative;    
   input {
     width: 100%;
     padding: 8px 15px;
