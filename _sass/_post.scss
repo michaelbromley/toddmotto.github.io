@@ -109,7 +109,10 @@
   }
   &.a2 {
     background-color: #007acc;
-    background-image: linear-gradient(to bottom right, #0087cc, #0056cc);    
+    background-image: url(/img/categories/a2-bg.png);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
   }
   &.js {
     background-color: #f7df1f;
