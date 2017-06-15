@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="157px" height="50px" viewBox="0 0 157 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="97.1859056%" y2="97.1859056%" id="linearGradient-1">
+            <stop stop-color="#A819B1" offset="0%"></stop>
+            <stop stop-color="#6F13A9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="toddmotto.com-banner" transform="translate(-514.000000, -115.000000)">
+            <g id="Group-2" transform="translate(472.000000, 70.000000)">
+                <g id="logo" transform="translate(42.000000, 45.000000)">
+                    <path d="M23.6,0 L0.4,8.3 L4,38.9 L23.6,49.8 L43.3,38.9 L46.8,8.3 L23.6,0 Z M34.5,33.7 L32.4,28.1 L29.2,28.2 L29.2,28.2 C28.5,29.4 27.8,30.3 27.1,31.1 C26.2,32.1 25.3,32.7 24.1,33.2 C22.8,33.8 21.7,34.1 19.8,34.1 C17.9,34.1 16.3,33.5 15.3,32.9 C14.3,32.3 13.4,31.6 12.7,30.6 C12.2,29.9 11.8,29.3 11.5,28.6 C11.4,28.2 11.1,27.5 11.1,27.4 C10.9,26.6 10.7,26.1 10.7,24.2 L10.7,14 L13.4,14 L13.4,24.2 C13.5,24.9 13.7,26.3 13.8,26.9 C13.9,27.3 13.9,27.4 14.1,27.9 C14.3,28.4 14.5,28.8 14.9,29.2 C15.4,29.8 15.9,30.3 16.6,30.7 C17.3,31.1 18.4,31.6 19.8,31.6 C22.1,31.6 23.7,30.5 25.1,29.3 C25.7,28.7 26.4,27.5 27,26.4 C27.1,26.1 27.4,25.5 27.4,25.5 L31.6,25.5 L28.5,17.2 L23.5,26.8 L20.8,26.8 L20.8,13.9 L23.5,13.9 L23.5,20.9 L27.1,13.9 L30.1,13.9 L37.4,33.7 L34.5,33.7 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.84"></path>
+                    <path d="M27,26.4 C27.1,26.1 27.4,25.5 27.4,25.5 L31.6,25.5 L28.5,17.2 L23.6,26.6 L23.6,30.4 C24.1,30.1 24.6,29.7 25.1,29.3 C25.7,28.7 26.4,27.5 27,26.4 Z" id="Shape" fill-opacity="0.119999997" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M23.6,0 L23.6,20.7 L27.1,13.9 L30.1,13.9 L37.4,33.7 L34.5,33.7 L32.4,28.1 L29.2,28.2 L29.2,28.2 C28.5,29.4 27.8,30.3 27.1,31.1 C26.2,32.1 25.3,32.7 24.1,33.2 C23.9,33.3 23.8,33.4 23.6,33.4 L23.6,49.8 L43.3,38.9 L46.8,8.3 L23.6,0 Z" id="Shape" fill-opacity="0.119999997" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M148.8,25.3 L148.8,24.7 L151.8,24.7 L151.8,25.3 L150.7,25.3 L150.7,28.2 L150,28.2 L150,25.3 L148.8,25.3 L148.8,25.3 Z M153.3,24.7 L154.2,27.2 L155.1,24.7 L156.1,24.7 L156.1,28.2 L155.5,28.2 L155.5,25.4 L154.5,28.2 L154,28.2 L153,25.4 L153,28.2 L152.4,28.2 L152.4,24.7 L153.3,24.7 Z" id="Shape" fill="#3A4250" fill-rule="nonzero"></path>
+                    <text id="ULTIMATE" font-family="TTNorms-Regular, TT Norms" font-size="10" font-weight="normal" fill="#3A4250">
+                        <tspan x="55" y="18">ULTIMATE</tspan>
+                    </text>
+                    <text id="ANGULAR" font-family="TTNorms-Medium, TT Norms" font-size="18" font-weight="400" fill="#3A4250">
+                        <tspan x="54" y="37">ANGULAR</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

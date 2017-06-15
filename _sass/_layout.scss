@@ -16,6 +16,19 @@
   src: url("../fonts/opensans-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-semibold-webfont.woff2") format("woff2"), url("../fonts/opensans-semibold-webfont.woff") format("woff"), url("../fonts/opensans-semibold-webfont.ttf") format("ttf"), url("../fonts/opensans-semibold-webfont.svg#open_sanssemibold") format("svg");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+    font-family: 'ua-regular';
+    src: url('../fonts/ua-regular-webfont.woff2') format('woff2'),
+         url('../fonts/ua-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal; }
+@font-face {
+    font-family: 'ua-medium';
+    src: url('../fonts/ua-medium-webfont.woff2') format('woff2'),
+         url('../fonts/ua-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal; }
+
 /* ==========================================================================
    Variables
    ========================================================================== */
@@ -186,13 +199,9 @@ a {
 
 .courses {
   background: #3a4250;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: cover;
-  padding: 24px 64px 32px;
   cursor: pointer;
-  text-align: center;
   position: relative;
+  height: 280px;
   border-radius: 2px 2px 0 0; }
   @media screen and (max-width: 850px) {
     .courses {
@@ -200,6 +209,9 @@ a {
   @media screen and (max-width: 500px) {
     .courses {
       padding: 24px 24px 32px; } }
+  .courses__content {
+    float: left; 
+    max-width: 350px; }
   .courses--bottom {
     margin: 0 -64px; }
     @media screen and (max-width: 850px) {
@@ -235,14 +247,15 @@ a {
       .courses__a2 {
         display: none; } }
   .courses h3 {
-    margin-top: 14px;
-    margin-bottom: 8px;
-    font-size: 24px; }
+    margin: 0;
+    font-size: 26px; 
+    font-family: 'ua-medium'; }
     @media only screen and (max-width: 550px) {
       .courses h3 {
         font-size: 20px;
         line-height: 24px; } }
   .courses a {
+    padding: 50px;
     display: block;
     color: #fff; }
   .courses__logo {
@@ -251,21 +264,44 @@ a {
   }
   .courses__box {
     width: 250px; }
+  .courses__illustration {
+    float: right;
+    margin: 20px 50px 0 0;
+    background: #fff;
+    width: 200px;
+    height: 140px;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .courses__illustration:before {
+      content: "";
+      background: #5D636E;
+      position: absolute;
+      width: 10px;
+      height: 120px;
+      left: -10px; 
+      top: 10px;
+      border-radius: 5px 0 0 5px; }
+    .courses__illustration:after {
+      content: "";
+      background: #5D636E;
+      position: absolute;
+      width: 10px;
+      height: 120px;
+      right: -10px;
+      top: 10px;
+      border-radius: 0 5px 5px 0; }
   .courses p {
-    font-size: 14px;
-    margin: 0;
-    margin-bottom: 30px;
-    color: #93a4c1;
-  }
+    font-size: 16px;
+    margin: 16px 0 36px;
+    color: #fff;
+    font-family: 'ua-regular'; }
   .courses button {
-    letter-spacing: -0.5px;
-    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-    background-image: url(/img/ua/arrow-right--white.png);
-    background-position: top 17px right 22px;
-    background-repeat: no-repeat;
-    background-size: 6px;
-    background-color: #9d62c8;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.26);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.26);
+    background-color: #24B373;
     color: #fff;
     -webkit-transition: background-color .3s,-webkit-box-shadow .3s;
     transition: background-color .3s,-webkit-box-shadow .3s;
@@ -273,23 +309,16 @@ a {
     transition: background-color .3s,box-shadow .3s,-webkit-box-shadow .3s;
     border: 0;
     outline: 0;
-    line-height: 1;
-    text-align: center;
-    padding: 14px 40px 14px 31px;
-    font-size: 15px;
-    font-weight: 600;
-    -moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
-    border-radius: 100px;
-    display: inline-block;
-    text-decoration: none;
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    text-align: left;
+    padding: 0 20px;
+    height: 42px;
+    font-size: 18px;
+    font-family: 'ua-medium';
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
     cursor: pointer; }
-    .courses button span {
-      font-size: 16px;
-      font-weight: 300;
-      text-decoration: line-through; }
+    .courses button:hover {
+      background: darken(#24B373, .5); }
 
 /*
  * BUTTON
