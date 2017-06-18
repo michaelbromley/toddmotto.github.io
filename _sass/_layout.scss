@@ -201,17 +201,20 @@ a {
   background: #3a4250;
   cursor: pointer;
   position: relative;
-  height: 280px;
   border-radius: 2px 2px 0 0; }
-  @media screen and (max-width: 850px) {
-    .courses {
-      padding: 24px 40px 32px; } }
-  @media screen and (max-width: 500px) {
-    .courses {
-      padding: 24px 24px 32px; } }
+  // @media screen and (max-width: 850px) {
+  //   .courses {
+  //     padding: 24px 40px 32px; } }
+  // @media screen and (max-width: 500px) {
+  //   .courses {
+  //     padding: 24px 24px 32px; } }
   .courses__content {
-    float: left; 
     max-width: 350px; }
+    @media only screen and (max-width: 750px) {
+    .courses__content {
+      // max-width: 100%;
+      margin: auto;
+      text-align: center; } }
   .courses--bottom {
     margin: 0 -64px; }
     @media screen and (max-width: 850px) {
@@ -252,12 +255,16 @@ a {
     font-family: 'ua-medium'; }
     @media only screen and (max-width: 550px) {
       .courses h3 {
-        font-size: 20px;
+        font-size: 22px;
         line-height: 24px; } }
   .courses a {
     padding: 50px;
-    display: block;
+    display: flex;
+    align-items: center;
     color: #fff; }
+    @media only screen and (max-width: 750px) {
+      .courses a {
+        display: block; } }
   .courses__logo {
     width: 160px;
     height: 55px;
@@ -265,8 +272,8 @@ a {
   .courses__box {
     width: 250px; }
   .courses__illustration {
-    float: right;
-    margin: 20px 50px 0 0;
+    margin-left: auto;
+    margin-right: 50px;
     background: #fff;
     width: 200px;
     height: 140px;
@@ -275,6 +282,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: center; }
+    @media screen and (max-width: 850px) {
+    .courses__illustration {
+      margin-right: 0; } }
+    @media only screen and (max-width: 750px) {
+    .courses__illustration {
+      margin: 40px auto 0; } }
     .courses__illustration:before {
       content: "";
       background: #5D636E;
@@ -559,7 +572,7 @@ table {
     content: "";
     clear: both;
     display: table; }
-  .action-bar .category-list {
+  .action-bar .category-l§§ist {
     float: left;
     width: 60%;
     margin-top: 1px; }
