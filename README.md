@@ -2,17 +2,17 @@
 
 ## Build this project
 
-### Install jekyll
+### Install Hugo
 
-Ensure `jekyll` is installed:
+Ensure `hugo` is installed:
 
 ```
-gem install jekyll
+brew install hugo
 ```
 
-If you need XCode dependencies, follow the [Jekyll installation guide](https://jekyllrb.com/docs/installation/). For Windows, follow the [Windows installation guide](https://jekyllrb.com/docs/windows/#installation).
+If you need XCode dependencies, follow the [Hugo installation guide](https://gohugo.io/getting-started/installing/#quick-install). For Windows, follow the [Windows installation guide](https://gohugo.io/getting-started/installing/#windows).
 
-Uncompiled [Jekyll](//jekyllrb.com) source code for [toddmotto.com](//toddmotto.com).
+Uncompiled [Hugo](https://gohugo.io/) source code for [toddmotto.com](//toddmotto.com).
 
 ### Installing dependencies
 
